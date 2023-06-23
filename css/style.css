@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.btn-brown {
+    @apply bg-shop-brown text-white font-medium hover:bg-white hover:text-black uppercase;
+}
+
+.btn-white {
+    @apply bg-white text-red-700 font-semibold hover:bg-shop-light-brown uppercase;
+}
+
+.btn-black {
+    @apply bg-black text-white font-medium hover:bg-white hover:text-black uppercase;
+}
